@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>run</title>
+	<style type="text/css">
+		img.frog{
+			border: 1px solid black;
+		}
+		div.og{
+			width: 30%;
+			height: 700px;
+		}
+		div.ig{
+			width: 200px;
+			height: 200px;
+			background-color: darkorange;
+			position: relative;
+			animation: example 10s infinite;
+		}
+		@keyframes example{
+			0%{background-color: darkorange; left: 0px; top: 0px;}
+			25%{background-color: firebrick; left: 300px; top: 0px;}
+			50%{background-color: midnightblue; left: 300px; top: 300px;}
+			75%{background-color: chocolate; left: 0px; top: 300px;}
+			100%{background-color: darkslategray; left: 0px; top: 0px;}
+		}
+	</style>
+</head>
+<body>
+	<div style="background-color: darkorange;">
+		<marquee behavior="" direction="" style="font-size: 50px; color: darkorange; background-color: darkorange; width: 49%;">...</marquee><marquee behavior="slide" direction="" style="font-size: 50px; color: black; background-color: darkorange; width: 51%;" scrollamount="175">Я</marquee>
+	    <marquee behavior="slide" direction="down" style="font-size: 50px; text-align: center; color: black; background-color: darkorange; width: 100%;" scrollamount="4">вивчаю</marquee>
+	    <marquee behavior="slide" direction="right" style="font-size: 50px; color: black; background-color: darkorange; width: 50%;" scrollamount="67">Анімаці</marquee><marquee behavior="slide" direction="" style="font-size: 50px; color: black; background-color: darkorange; width: 50%;" scrollamount="67">ю тексту</marquee>
+	    <marquee behavior="slide" direction="up" style="font-size: 50px; text-align: center; color: black; background-color: darkorange; width: 100%;" scrollamount="3">і тд</marquee>
+	    <marquee behavior="slide" loop="8" direction="down" style="text-align: right; color: black; background-color: darkorange; width: 50%;" scrollamount="20"><img src="https://cdn.7tv.app/emote/60fced1a712cfecff99adeb3/2x.webp" alt="basedge"></marquee><marquee behavior="slide" loop="8" direction="up" style="text-align: left; color: black; background-color: darkorange; width: 50%;" scrollamount="18"><img src="https://em-content.zobj.net/thumbs/160/twitter/322/call-me-hand_1f919.png" alt="callme" width="50" height="50"></marquee>
+	</div>
+	<div style="background-color: darkorange;">
+		<marquee behavior="alternate" direction="down" style=" border: solid 2px black; color: black; background-color: darkorange;  width: 40%; height: 700px; "scrollamount="30"><marquee behavior="alternate"><img class="frog" src="https://media.tenor.com/tS4120QBuugAAAAi/frog-spin-frog.gif" alt="frog" width="200" height="200"></marquee></marquee>
+	    <marquee behavior="slide" loop="50" direction="down" style="font-size: 100px; border: 2px solid black; text-align: center; color: black; background-color: darkorange; width: 20%; height: 700px;" scrollamount="1000">.........</marquee>
+    </div>
+	<div class="ig"></div>
+</body>
+</html>
